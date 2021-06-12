@@ -1,0 +1,6 @@
+[submodule "code/3rdparty/semantic-segmentation-pytorch"]
+	path = code/3rdparty/semantic-segmentation-pytorch
+	url = https://github.com/madhawav/semantic-segmentation-pytorch.git
+[submodule "code/3rdparty/PlanarReconstruction"]
+	path = code/3rdparty/PlanarReconstruction
+	url = https://github.com/madhawav/PlanarReconstruction.git

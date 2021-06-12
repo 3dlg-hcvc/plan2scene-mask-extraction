@@ -1,0 +1,33 @@
+{
+    "dataset_cfg":  {
+        "num_class": 150,
+        "imgSizes": [300, 375, 450, 525, 600],
+        "imgMaxSize": 1000,
+        "padding_constant": 32,
+        "segm_downsampling_rate": 4
+    },
+    "plane_prediction_cfg":{
+        "seed": 123,
+        "num_gpus": 1,
+        "model": {
+            "arch": "resnet101",
+            "pretrained": false,
+            "embed_dims": 2,
+            "fix_bn": false
+        }
+    },
+    "class_index_map":{
+        "wall": 0,
+        "floor": 3,
+        "ceiling": 5
+    },
+    "plane_instance_segmentation_count":{
+        "floor": 0,
+        "wall":10,
+        "ceiling":0
+    },
+    "fov":{
+        "vertical": 45,
+        "horizontal": 60
+    }
+}

@@ -1,0 +1,21 @@
+# Requirements for https://github.com/CSAILVision/semantic-segmentation-pytorch/blob/5c2e9f6f3a231ae9ea150a0019d161fe2896efcf/requirements.txt
+numpy
+scipy
+pytorch=0.4.1
+torchvision
+opencv3
+yacs
+tqdm
+
+# Requirements for https://github.com/svip-lab/PlanarReconstruction/blob/master/requirements.txt
+torch==0.4.1
+torchvision==0.2.0
+tensorflow==1.14.0
+imageio
+scipy
+argparse
+Pillow
+sacred
+easydict
+pymongo
+pyyaml

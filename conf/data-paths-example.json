@@ -1,0 +1,7 @@
+{
+    "semantic_segmentation_project_path": "./code/3rdparty/semantic-segmentation-pytorch",
+    "semantic_segmentation_encoder_checkpoint": "Path/to/ade20k-hrnetv2-c1/encoder_epoch_30.pth",
+    "semantic_segmentation_decoder_checkpoint": "Path/to/ade20k-hrnetv2-c1/decoder_epoch_30.pth",
+    "planar_reconstruction_project_path": "./code/3rdparty/PlanarReconstruction/",
+    "planar_reconstruction_checkpoint":"Path/to/PlanarReconstruction/ckpt/pretrained.pt"
+}
